@@ -106,3 +106,9 @@ h2 {
 .search-form {
   margin-bottom: 20px;
 }
+
+.open-source-link {
+  display: block;
+  padding-left: 260px;
+  font-size: small;
+}
