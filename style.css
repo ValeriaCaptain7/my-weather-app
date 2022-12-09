@@ -38,39 +38,44 @@ h2 {
 }
 
 .btn-search {
-  transition: all 2ms ease-in;
+  
   color: rgb(101, 96, 96);
   border: 1px solid white;
   text-align: center;
   line-height: 1;
   font-size: 17px;
-  background-color: transparent;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   padding: 10px 22px;
   outline: none;
   border-radius: 10px;
+  transition: all 200ms ease-in;
 }
 
-.btn-search :hover {
+.btn-search:hover {
   color: #001f3f;
-  background-color: rgb(44, 102, 236);
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border: 1px solid rgb(22, 216, 250);
 }
 
-.btn-current-city {
-  transition: all 2ms ease-in;
+button {
+  display: block;
+  transition: all 200ms ease-in;
+  cursor: pointer;
   color: rgb(101, 96, 96);
   border: 1px solid white;
   text-align: center;
   line-height: 1;
   font-size: 17px;
-  background-color: transparent;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   padding: 10px 15px;
   outline: none;
   border-radius: 10px;
 }
 
-.btn-current-city :hover {
-  color: #001f3f;
-  background-color: rgb(98, 236, 44);
+ button:hover {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  color: rgb(44, 41, 41);
+  border: 1px solid rgb(159, 250, 22);
 }
 
 .weather-icon {
@@ -105,10 +110,4 @@ h2 {
 }
 .search-form {
   margin-bottom: 20px;
-}
-
-.open-source-link {
-  display: block;
-  padding-left: 260px;
-  font-size: small;
 }
